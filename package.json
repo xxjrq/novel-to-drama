@@ -1,6 +1,6 @@
 {
   "name": "novel-to-drama",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "把小说片段或梗概改成包含场次、对白、动作、冲突和结尾钩子的短剧剧本。",
   "private": false,
   "license": "MIT",

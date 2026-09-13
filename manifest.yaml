@@ -1,10 +1,11 @@
 name: "novel-to-drama"
 display_name: "小说改短剧"
 slug: "novel-to-drama"
-version: "1.0.0"
+version: "1.0.1"
 category: "writing"
 author: "xxjrq"
-description: "把小说片段改成含场次、动作、对白、冲突和结尾钩子的短剧脚本。"
+repository: "https://github.com/xxjrq/novel-to-drama"
+description: "把小说片段、章节或梗概改成可排练的中文短剧脚本，同时输出 Markdown 和 JSON，包含场次、动作、对白、冲突升级和结尾钩子。"
 icon: "icon-512.png"
 trigger_words:
   - "小说改短剧"

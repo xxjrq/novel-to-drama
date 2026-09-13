@@ -1,6 +1,6 @@
 ---
 name: novel-to-drama
-description: 将小说片段或梗概改成中文短剧剧本，输出场次、人物动作、对白、冲突升级和结尾钩子。适用于短剧策划、试写和分集拆解；保留原作事实，不承诺爆款、过审或收益。
+description: 将小说片段、章节或梗概改成可排练的中文短剧剧本，同时输出 Markdown 与 JSON，包含场次、人物动作、对白、冲突升级和结尾钩子。适用于短剧策划、试写和分集拆解；保留原作事实，不承诺爆款、过审或收益。
 ---
 
 # 小说改短剧
@@ -39,4 +39,3 @@ description: 将小说片段或梗概改成中文短剧剧本，输出场次、�
 python3 scripts/self_test.py self-test
 python3 scripts/self_test.py convert --input examples/success-input.md --output /tmp/drama-output
 ```
-
