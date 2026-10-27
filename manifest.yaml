@@ -1,7 +1,7 @@
 name: "novel-to-drama"
 display_name: "小说改短剧"
 slug: "novel-to-drama"
-version: "1.0.1"
+version: "1.0.2"
 category: "writing"
 author: "xxjrq"
 repository: "https://github.com/xxjrq/novel-to-drama"

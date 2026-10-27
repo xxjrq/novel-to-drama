@@ -1,2 +1,4 @@
 .factory/
 dist/
+__pycache__/
+*.py[cod]
