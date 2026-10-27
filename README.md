@@ -12,6 +12,16 @@ npx skills add xxjrq/novel-to-drama --skill novel-to-drama
 
 也可以从 [Gitee](https://gitee.com/xxjrq/novel-to-drama) 获取源文件，或在 [SkillHub](https://skillhub.cn/skills/user_068e9c11/novel-to-drama) 查看。
 
+## Cursor 与 Claude Code 插件
+
+仓库同时提供 Cursor 插件清单和 Claude Code 插件清单；两者都复用仓库根目录的 `SKILL.md`，没有复制或移动 Skill 内容。
+
+- **Cursor 本地加载**：将仓库作为插件目录放入 `~/.cursor/plugins/local/novel-to-drama`，重载 Cursor 后在 Customize 中确认 Skill。
+- **Claude Code 本地加载**：运行 `claude plugin validate /path/to/novel-to-drama`，再用 `claude --plugin-dir /path/to/novel-to-drama` 启动会话；根 Skill 作为 `novel-to-drama` 插件中的单一 Skill 出现。
+- **平台审核与 Skill 安装是不同步骤**：Agent Skills 安装方式可独立使用，不等于 Cursor Marketplace 已收录。Cursor Marketplace 需要公开仓库并单独提交人工审核；Claude Code 的 `--plugin-dir` 可本地加载，无需 marketplace 审核。若要通过 Claude marketplace 分发，还需由 marketplace 维护方添加插件条目；提交 Anthropic Directory 则另有审核。
+
+插件包只声明 Skill 元数据；不附带 hooks、MCP 服务、额外权限或安装时网络下载脚本。
+
 ## 直接使用
 
 > 使用 $novel-to-drama，把下面这段小说改成约 1 分钟的短剧。保留人物和关键事实，输出可拍的场次、动作、对白、冲突和结尾钩子；未知信息单独列出。

@@ -1,0 +1,21 @@
+{
+  "name": "novel-to-drama",
+  "displayName": "小说改短剧",
+  "version": "1.0.2",
+  "description": "依据用户提供的小说或梗概创作中文短剧剧本。",
+  "author": {
+    "name": "xxjrq"
+  },
+  "homepage": "https://github.com/xxjrq/novel-to-drama",
+  "repository": "https://github.com/xxjrq/novel-to-drama",
+  "license": "MIT",
+  "keywords": [
+    "novel",
+    "screenplay",
+    "short-drama",
+    "storyboard"
+  ],
+  "skills": [
+    "./"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "novel-to-drama",
+  "version": "1.0.2",
+  "description": "Adapt user-provided fiction into a Chinese short-drama script while preserving source facts.",
+  "author": {
+    "name": "xxjrq"
+  },
+  "repository": "https://github.com/xxjrq/novel-to-drama",
+  "license": "MIT",
+  "keywords": [
+    "novel",
+    "screenplay",
+    "short-drama",
+    "storyboard",
+    "writing"
+  ],
+  "logo": "assets/icon-512.png"
+}
